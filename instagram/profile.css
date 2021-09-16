@@ -1,0 +1,73 @@
+.nav-bar {
+    background-color: #ffffff;
+    padding: 14px 20px;
+    align-items: center;
+    border-bottom: solid 1px #dbdbdb;
+}
+
+.logo {
+    width: 103px;
+}
+
+.mg-glass {
+    background-image: url(https://www.instagram.com/static/bundles/metro/sprite_core_2x_bcd90c1d4868.png/bcd90c1d4868.png);
+    position: absolute;
+    background-size: 440px 411px;
+    background-position: -428px -241px;
+    left: 300px;
+    top: 25px;
+    width: 12px;
+    height: 10px;
+}
+
+.login-register {
+    gap: 15px;
+    font-size: 14px;
+}
+
+.btn {
+    background-color: #0095f6;
+    border-radius: 4px;
+    padding: 5px 9px;
+}
+
+.search {
+    border: solid 1px #dbdbdb;
+    background-color: #fafafa;
+    border-radius: 3px;
+    color: #262626;
+    min-width: 200px;
+    padding: 3px 10px 3px 26px;
+    position: relative;
+}
+
+[type='search']::placeholder {
+    text-align: center;
+}
+
+.container {
+    padding: 30px 20px 0 20px;
+}
+
+header {
+    padding: 16px 24px;
+}
+
+.profile_img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.container-photo {
+    padding: 0 60px;
+    margin-right: 28px;
+}
+
+.gallery {
+    gap: 28px;
+}
+
+.gallery img {
+    height: 293px;
+}

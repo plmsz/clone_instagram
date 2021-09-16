@@ -1,0 +1,127 @@
+body {
+    padding-bottom: 50px;
+}
+
+main {
+    margin: 22px;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid gainsboro;
+    padding: 22px 40px;
+    width: 350px;
+}
+
+.login {
+    margin-top: 35px;
+}
+
+.phone-slide {
+    margin-right: -15px;
+    position: relative;
+}
+
+#slider {
+    position: absolute;
+    background-size: cover;
+    animation: changeBg ease-out 7s infinite;
+    width: 242px;
+    height: 430px;
+    bottom: 93px;
+    left: 150px;
+}
+
+@keyframes changeBg {
+    0%, 100% {
+        background-image: url("https://www.instagram.com/static/images/homepage/screenshot1-2x.jpg/9144d6673849.jpg");
+    }
+    20% {
+        background-image: url("https://www.instagram.com/static/images/homepage/screenshot5-2x.jpg/5e04169b9308.jpg");
+    }
+    40% {
+        background-image: url("https://www.instagram.com/static/images/homepage/screenshot4-2x.jpg/b27a108592d8.jpg");
+    }
+    60% {
+        background-image: url("https://www.instagram.com/static/images/homepage/screenshot2-2x.jpg/177140221987.jpg");
+    }
+    80% {
+        background-image: url("https://www.instagram.com/static/images/homepage/screenshot3-2x.jpg/ff2c097a681e.jpg");
+    }
+}
+
+.phone-slide img {
+    width: 455px;
+    height: 618px;
+}
+
+.login img {
+    width: 175px;
+    margin-bottom: 36px;
+}
+
+.input-login input {
+    all: unset;
+    font-size: 12px;
+    background-color: #fafafa;
+    padding: 9px 8px;
+    border: 1px solid gainsboro;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.btn {
+    background-color: #afdcf9;
+    font-weight: 500;
+    font-size: 14px;
+    width: 250px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    border-radius: 2px;
+    padding: 5px 9px;
+}
+
+.separator {
+    width: 250px;
+    color: #8e8e8e;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 26px;
+}
+
+.line {
+    border-bottom: 1px solid rgba(142, 142, 142, 0.7);
+    height: 1px;
+    width: 90px;
+}
+
+.login-alt a {
+    color: #385185;
+    font-weight: 600;
+}
+
+.login-alt img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    margin-top: 3px;
+}
+
+.login-alt+a {
+    font-size: 12px;
+    color: rgb(0, 55, 107);
+}
+
+.register {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.app img {
+    max-width: 135px;
+    max-height: 40px;
+    margin-top: 20px;
+    margin-left: 8px;
+}
