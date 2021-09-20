@@ -6,9 +6,13 @@
     text-decoration: none;
 }
 
+.logo {
+    align-self: center;
+}
+
 body {
-    max-width: 100vw;
     background-color: #fafafa;
+    max-height: 100vh;
 }
 
 .flex-row {
@@ -27,6 +31,11 @@ body {
 .justify-center {
     display: flex;
     justify-content: center;
+}
+
+.justify-around {
+    display: flex;
+    justify-content: space-around;
 }
 
 .align-center {
@@ -64,10 +73,14 @@ footer a, footer {
     line-height: 14px;
 }
 
+footer {
+    padding-bottom: 52px;
+}
+
 .nav-footer {
     display: flex;
     flex-wrap: wrap;
-    max-width: 755px;
+    width: 89ch;
     gap: 10px;
     align-self: center;
 }
