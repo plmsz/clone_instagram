@@ -46,7 +46,7 @@ input[type='search']::placeholder {
 }
 
 .container {
-    padding: 0 23% 0 23%;
+    padding: 0 25% 0 25%;
 }
 
 header {
@@ -128,8 +128,8 @@ header {
 }
 
 .row>img {
-    width: 31%;
-    height: 31%;
+    width: calc(33% - 20px);
+    height: 33%;
 }
 
 footer {

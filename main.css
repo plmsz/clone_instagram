@@ -59,6 +59,7 @@ body {
 
 .btn {
     all: unset;
+    cursor: pointer;
     font-weight: 600;
     text-align: center;
     color: white;
